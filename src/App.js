@@ -8,6 +8,9 @@ function App() {
     <div className="App">
       <Header></Header>
       <Countries></Countries>
+      <footer>
+        <h4>All Rights Reserved</h4>
+      </footer>
     </div>
   );
 }

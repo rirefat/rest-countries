@@ -12,17 +12,12 @@ const Countries = () => {
     return (
         <div>
             <h3>Available countries: {countries.length}</h3>
+            <div className="single-segment">
             {
                 countries.map(country => <Country 
-                    country = {country}
-                    // url = {country.flags.png}
-                    // officialName = {country.name.official}
-                    // capital = {country.capital}
-                    // population = {country.population}
-                    // region = {country.region}
-                    // subRegion = {country.subregion}
-                    ></Country>)
+                    country = {country}></Country>)
             }
+            </div>
         </div>
     );
 };
